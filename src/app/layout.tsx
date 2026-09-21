@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import '@/app/globals.css';
 
 import { siteConfig } from '@/config/site';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -22,6 +23,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8749207840340519"
+          crossorigin="anonymous"></script>
         <meta name="color-scheme" content="light dark" />
         <style dangerouslySetInnerHTML={{ __html: 'html{scrollbar-gutter:stable}' }} />
         <script
