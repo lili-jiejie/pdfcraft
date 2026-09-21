@@ -23,8 +23,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8749207840340519"
-          crossOrigin="anonymous"></script>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8749207840340519"
+          crossOrigin="anonymous">
+        </script>
         <meta name="color-scheme" content="light dark" />
         <style dangerouslySetInnerHTML={{ __html: 'html{scrollbar-gutter:stable}' }} />
         <script
